@@ -18,29 +18,38 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
             integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
         
-            <!-- Custom Styles -->
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Montserrat&display=swap" rel="stylesheet">
+
+        <!-- Custom Styles -->
         <link rel="stylesheet" href="styles/main.css">
     </head>
 
     <body>
-        <!-- Navbar -->
-        <header>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </header>
+        <div class="container"><!-- Container Start -->
+            <!-- Navbar -->
+            <header>
+                <nav class="navbar navbar-expand-sm justify-content-end">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars hamburger"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-right">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
 
-        <main>
+            <main>
             <!-- Hero Section -->
-            <div class="container"> <!-- Container Start -->
                 <div class="row align-items-center text-center text-md-left">
                     <div class="col-sm-12 col-md-6">
                         <h1>Meet Picasso!</h1>
@@ -133,31 +142,23 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+            </main>
         
-            </div> <!-- Container End -->
-        </main>
-        
-        <!-- Footer and Social Media Links -->
-        <footer class="d-flex justify-content-between">
-            <div class="left-align-box">
-                <p>Made with <span class="heart">&hearts;</span> by Dayna Schlenker</p>
-                <p>&copy; 2020</p>
-            </div>
-        
-            <div class="right-align-box">
-                <ul class="social-list d-flex">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+            <!-- Footer and Social Media Links -->
+            <footer class="d-flex">
+                <div class="left-align-box w-50 d-flex justify-content-center align-items-center">
+                    <p class="text-center">Made with <span class="heart">&hearts;</span> by Dayna Schlenker &copy; 2020</p>
+                </div>
+            
+                <div class="right-align-box w-50 d-flex justify-content-center">
+                    <ul class="social-list d-flex">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square social-icons"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square social-icons"></i></a></li>
+                        <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square social-icons"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div> <!-- Container End -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
