@@ -96,3 +96,9 @@ footer {
         font-size: 1.250em;
     }
 }
+
+@media (min-width: 768px) {
+    .social-icons {
+        margin: 0 0.500em;
+    }
+}
