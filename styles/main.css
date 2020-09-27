@@ -25,6 +25,10 @@ nav {
     color: #e7eff6;
 }
 
+.nav-link:hover {
+    color: #2a4d69;
+}
+
 
 /* Hero Section Styles */
 .final-paragraph {
@@ -81,6 +85,10 @@ footer {
     font-size: 2.188em;
     color: #e7eff6;
     margin: 0 0.250em;
+}
+
+.social-icons:hover {
+    color: #2a4d69;
 }
 
 
