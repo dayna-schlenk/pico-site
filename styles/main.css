@@ -2,6 +2,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    color: #2a4d69;
+    background-color: #e7eff6;
 }
 
 h1, h2, h3 {
@@ -11,20 +13,50 @@ h1, h2, h3 {
 
 /* Navbar Styles */
 .hamburger {
-    color: black;
     font-size: 1.563em;
+    color: #2a4d69;
 }
 
+.nav-item {
+    background-color: #63ace5;
+}
+
+.nav-link {
+    color: #e7eff6;
+}
+
+
 /* Hero Section Styles */
+.final-paragraph {
+    margin-bottom: 0;
+}
+
+.rounded-circle {
+    border: 20px solid #63ace5;
+}
 
 
 /* Hobby Styles */
+.hobbies {
+    background-color: #adcbe3;
+}
+
+.hobby-icons {
+    font-size: 2.5em;
+    color: #63ace5;
+}
 
 
 /* Carousel Styles */
 
 
+
 /* Footer & Social Media Styles */
+footer {
+    background-color: #4b86b4;
+    color: #e7eff6;
+}
+
 .left-align-box {
     font-size: 0.813em;
 }
@@ -36,14 +68,31 @@ h1, h2, h3 {
 
 .heart {
   color: red;
+  font-size: 1.375em; 
 }
 
 .social-list {
     list-style-type: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .social-icons {
     font-size: 2.188em;
+    color: #e7eff6;
+    margin: 0 0.250em;
+}
+
+
+/* Media Queries */
+@media (max-width: 380px) {
+    .social-icons {
+        font-size: 1.875em;
+    }
+}
+
+@media (max-width: 320px) {
+    .social-icons {
+        font-size: 1.250em;
+    }
 }
