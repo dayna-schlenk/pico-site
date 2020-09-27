@@ -12,13 +12,13 @@ h1, h2, h3 {
 
 
 /* Navbar Styles */
+nav {
+    background-color: #63ace5;
+}
+
 .hamburger {
     font-size: 1.563em;
     color: #2a4d69;
-}
-
-.nav-item {
-    background-color: #63ace5;
 }
 
 .nav-link {
